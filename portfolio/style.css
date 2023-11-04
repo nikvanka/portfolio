@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  .hero {
+    width: 100%;
+    height: 110vh;
+    background:linear-gradient(109.6deg, rgb(6, 2, 1) 35%, rgb(102, 21, 129) 90.67%);
+    background-size: contain;
+    
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+  }
+  .logo {
+    max-height: 100px;
+    height: fit-content;
+    
+  }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  nav ul li a {
+    color: #f5f0f0;
+    position: relative;
+    padding: 5px 0;
+  }
+  nav ul li a:hover {
+    color:#c40404;
+  }
+  nav ul li a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #fd4766;
+    transition: 0.2s;
+    bottom: 0;
+  }
+  nav ul li a:hover:after {
+    width: 100%;
+  }
+  .btn {
+    color: #932020;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px 40px;
+    border-radius: 450px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    background-size: 145% 90%;
+    background:radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    border: 4px solid #f56702;
+  }
+  .btn:hover {
+    background: transparent;
+    border-color:#97cba9;
+    color: #e1dcdc;
+    
+  }
+  .content {
+    position: absolute;
+    top: 37%;
+    left:12%;
+  }
+  .content .title {
+    color: #0a0a0a;
+    font-size:14px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(
+      120deg,
+      #1c99fe 20.69%,
+      #7644ff 50.19%,
+      #fd4766 79.69%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .content h1 {
+    color: #ffaa0d;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 90%;
+  }
+  .content h1 span {
+    color:rgb(148, 148, 209);
+  }
+  .content p {
+    width: 65%;
+    color: #eeecec;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:left;
+    text-decoration: wavy;
+    font: size 14px;
+    word-spacing: 2px;
+  }
